@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="80px" src="https://gifyu.com/image/SIsj8" align="center">
+    <img width="80px" src="https://s10.gifyu.com/images/IMG_1510.gif" align="center">
 </p>
 <p align="center"> GeekyAnts Device Lab Platform</p>
 
