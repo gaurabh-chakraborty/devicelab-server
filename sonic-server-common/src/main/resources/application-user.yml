@@ -21,4 +21,4 @@ spring:
     base: ${LDAP_BASE:ou=system}
     username: ${LDAP_USERNAME:uid=admin,ou=system}
     password: ${LDAP_PASSWORD:Sonic!@#123}
-    urls: ${LDAP_URL:ldap://127.0.0.1:10389}
+    urls: ${LDAP_URL:ldap://10.45.1.28:10389}

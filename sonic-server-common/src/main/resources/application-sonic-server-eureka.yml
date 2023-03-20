@@ -13,7 +13,7 @@ eureka:
   datacenter: sonic-server
   environment: prod
   instance:
-    hostname: ${SONIC_EUREKA_HOST:127.0.0.1}
+    hostname: ${SONIC_EUREKA_HOST:10.45.1.28}
     instance-id: ${random.uuid}
   server:
     enable-self-preservation: false
@@ -25,4 +25,4 @@ eureka:
     register-with-eureka: ${IS_CLUSTERED:false}
     fetch-registry: ${IS_CLUSTERED:false}
     service-url:
-      defaultZone: http://${SONIC_EUREKA_USERNAME:sonic}:${SONIC_EUREKA_PASSWORD:sonic}@${SONIC_EUREKA_HOST:127.0.0.1}:${SONIC_EUREKA_PORT:8761}/eureka/
+      defaultZone: http://${SONIC_EUREKA_USERNAME:sonic}:${SONIC_EUREKA_PASSWORD:sonic}@${SONIC_EUREKA_HOST:10.45.1.28}:${SONIC_EUREKA_PORT:8761}/eureka/
